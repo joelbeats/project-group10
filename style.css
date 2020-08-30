@@ -1,8 +1,25 @@
 html, body{
+    height: 100%;
     padding: 0px;
     margin: 0px;
     background-color: black;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #2c2c2c;
+    height: 80px;
+}
+
+.content {
+    
+    margin: 40px;
+}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -34,21 +51,33 @@ a{
     text-decoration: none;
 }
 
-div{
-    width: 400px;
-    margin: 40px auto;
+.wrapper{
     padding: 20px;
+    padding-bottom: 50px;
+    width: 400px;
+    margin: auto;
     border: 1px solid #b4becf;
     border-radius: 20px;
     background-color: rgb(131, 95, 95);
 }
 
-div:hover{
+.wrapper:hover{
     border: 2px solid rgb(49, 56, 85);
     background-color: rgb(0, 95, 95);
 }
 
 svg{
-    margin: 10px;
+    margin: 30px;
 }
 
+.footer{
+    background-color: #2c2c2c;
+    height: 80px;
+    position: absolute;
+    left: 0 ; right: 0; bottom: 0; 
+}
+
+#joelbeats-logo{
+    float: right;
+    margin: 30px;
+}
